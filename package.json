@@ -1,0 +1,31 @@
+{
+  "name": "image-distortion",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Anthony Lopez <anthony.lopezpro@gmail.com>",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "dev": "webpack -d --mode development",
+    "watch": "webpack -d --mode development --watch",
+    "prod": "webpack -p --mode production"
+  },
+  "dependencies": {
+    "reset-css": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "three": "^0.118.3",
+    "three-orbit-controls": "^82.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
