@@ -12,20 +12,26 @@
     "watch": "webpack -d --mode development --watch",
     "prod": "webpack -p --mode production"
   },
-  "dependencies": {
-    "reset-css": "^5.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
+    "glsl-noise": "^0.0.0",
+    "glslify": "^7.0.0",
+    "glslify-import": "^3.1.0",
+    "glslify-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
+    "raw-loader": "^4.0.1",
+    "reset-css": "^5.0.1",
     "sass-loader": "^9.0.2",
     "style-loader": "^1.2.1",
     "three": "^0.118.3",
     "three-orbit-controls": "^82.1.0",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-glsl-loader": "^1.0.1"
   }
 }
