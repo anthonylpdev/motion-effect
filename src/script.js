@@ -22,7 +22,7 @@ class Base {
         75, window.innerWidth / window.innerHeight, 0.1, 1000,
     );
     this.renderer = new WebGLRenderer({alpha: true});
-    this.geometry = new PlaneGeometry(0.4, 0.6, 16, 16);
+    this.geometry = new PlaneGeometry(0.404, 0.523, 16, 16);
     this.material = new ShaderMaterial({
       vertexShader: vs,
       fragmentShader: fs,

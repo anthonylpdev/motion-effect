@@ -12,7 +12,9 @@
     "watch": "webpack -d --mode development --watch",
     "prod": "webpack -p --mode production"
   },
-  "dependencies": {},
+  "dependencies": {
+    "imagesloaded": "^4.1.4"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
